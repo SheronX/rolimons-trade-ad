@@ -20,7 +20,7 @@
         "upgrade": false,
         "downgrade": false,
         "any": true,
-        "minSendItems": 2,
+        "minSendItems": 1,
         "maxSendItems": 4,
         "minReceiveItems": 1,
         "maxReceiveItems": 4,
