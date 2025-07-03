@@ -17,30 +17,30 @@
     },
     "smartAlgo": {
         "enabled": true,
-        "upgrade": false,
-        "downgrade": false,
+        "upgrade": true,
+        "downgrade": true,
         "any": true,
-        "minSendItems": 3,
-        "maxSendItems": 4,
-        "minReceiveItems": 2,
+        "minSendItems": 1,
+        "maxSendItems": 3,
+        "minReceiveItems": 1,
         "maxReceiveItems": 4,
         "blacklisted": [
             "BLACKLISTED_ITEM_ID_1",
             "BLACKLISTED_ITEM_ID_2"
         ],
-        "minTotalSend": 30000,
+        "minTotalSend": 1000,
         "maxTotalSend": 1000000,
-        "minTotalRequestValue": 30000,
+        "minTotalRequestValue": 1000,
         "maxTotalRequestValue": 1000000000,
         "minUpgPercent": 7,
         "maxUpgPercent": 12,
         "minDgPercent": 0,
         "maxDgPercent": 4,
         "minDemand": 2,
-        "minItemValueSend": 5000,
-        "minItemValueRequest": 5000,
+        "minItemValueSend": 400,
+        "minItemValueRequest": 400,
         "tags": [
-            "adds"
+            "any"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     }
