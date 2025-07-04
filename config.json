@@ -20,7 +20,7 @@
         "upgrade": false,
         "downgrade": false,
         "any": true,
-        "minSendItems": 2,
+        "minSendItems": 3,
         "maxSendItems": 4,
         "minReceiveItems": 1,
         "maxReceiveItems": 4,
@@ -40,7 +40,8 @@
         "minItemValueSend": 400,
         "minItemValueRequest": 400,
         "tags": [
-            "adds"
+            "adds",
+            "upgrade"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     }
